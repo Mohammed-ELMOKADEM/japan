@@ -1,0 +1,34 @@
+.container {
+	width: 70.708%;
+	height: 550px;
+	display: grid;
+	grid-template-rows:100px 300px 100px; 
+	grid-row-gap: 1em; 
+	color: white;
+	background-color: #292f34;
+	border-radius: 30px;
+	margin-top: 40px;
+	margin-left: 14.647%;
+}
+#informations{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.id{
+	height: 100%;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-column-gap: 10%;
+	text-align: right;
+}
+img{
+	height: 100%;
+	width: 100px;
+	border-top-left-radius: 30px;
+}
+@media (max-width: 800px){
+	.container{
+		width: 90%;
+		margin:40px auto;
+	}
+}

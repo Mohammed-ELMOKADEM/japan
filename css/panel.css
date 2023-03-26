@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: grid;
+	grid-template-rows: auto auto;
+}
+nav{
+	background: lightgray;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+nav h1{
+	width: 50%;
+	line-height: 70px;
+	margin-left: 20px; 
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	line-height: 70px;
+	text-align: right;
+	margin-right: 20px;
+}
+nav a:hover{
+	color: red;
+	transition: .5s ease;
+}
+article{
+	width: 100%;
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-row-gap: 1em;
+}
+article form{
+	margin-bottom: 90px;
+	margin-top: 40px;
+	width: 50%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:1px solid black;
+	margin-left: 25%;
+	background: lightgray;
+}
+article form h2{
+	text-align: center;
+}
+article form input[type="text"]{
+	height: 30px;
+}
+article form input{
+	height: 50px;
+}
+article form textarea{
+	height: 180px;
+	resize: none;
+}
+article form input[type="text"],article form textarea{
+	width: 70%;
+	margin: 10px;
+	padding: 10px;
+}
+article form input[type="submit"]{
+	width: 120px !important;
+	border-radius: 30px;
+	border:1px solid black;
+	cursor: pointer;
+}
+article form input[type="text"]{
+	border-radius: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+article form textarea{
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+article table{
+	width: 67%;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-left: 25%;
+	border-radius: 30px;
+	border: 2px solid black;
+	padding: 10px;
+}
+.btns{
+	width: 100%;
+	padding:5px;
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+td{
+	padding: 5px;
+}
+.btns:hover{
+	background-color: black;
+	color: white;
+	transition: .5s ease;
+}

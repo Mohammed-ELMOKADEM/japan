@@ -1,0 +1,29 @@
+table{
+	width: 77.136%;
+	background-color:  #292f34;
+	border-radius: 30px;
+	height: 400px;
+	margin-left: 11.433%;
+	margin-top: 40px;
+}
+#titre{
+	width: 74.565%;
+	text-align: center;
+	color: white;
+	background-color:  #292f34;
+	padding: 10px;
+	border-radius: 30px;
+	margin-left: 11.433%;
+	margin-top: 40px;
+}
+img{
+	width: 50%;
+}
+td a{
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+}
+a:hover{
+	color: skyblue;
+}
